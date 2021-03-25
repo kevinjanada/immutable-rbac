@@ -62,7 +62,7 @@ pub mod pallet {
 
         // TODO: 
         // #[pallet::weight(10_000 + T::DbWeight::get().writes(1))]
-        // pub fn remove_role(origin: OriginFor<T>, role: super::Role) -> DispatchResultWithPostInfo {
+        // pub fn unassign_role(origin: OriginFor<T>, role: super::Role) -> DispatchResultWithPostInfo {
         //      
         // }
     }
